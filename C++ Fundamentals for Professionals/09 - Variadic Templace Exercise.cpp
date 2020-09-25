@@ -32,6 +32,7 @@ int main(){
   std::string str4= createT<std::string>(std::move(str3));
   std::cout << "str4: " << str4 << std::endl;
 
+  //variable number of parameters
   int lValue= createT<int>(1);
   int i= createT<int>(lValue);
   std::cout << "lvalue = " << lValue;
