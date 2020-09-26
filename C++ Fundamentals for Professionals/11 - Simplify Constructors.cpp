@@ -71,5 +71,11 @@ int main(){
   wHD.show();
 
   std::cout << std::endl;
-
 }
+
+/*
+The trick was to figure out the correct values for initializing the Widget class’s attributes outside the constructors.
+In line 5 of the Exercise code, we can see the default values of all the attributes. Hence, we’ll assign these to them outside the constructor.
+Another thing to notice is that frame and visible are always initialized to false and true, respectively. We should simply omit them from the constructors.
+The attributes that can vary based on the arguments are weight and height. Therefore, we’ve left them as they were in the parameterized constructors.
+*/
