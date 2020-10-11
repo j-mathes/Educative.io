@@ -1,7 +1,0 @@
-// The functionality of the program in example 2 of the previous lesson can be implemented in various ways. Implement each variant.
-
-// Case 1 - Object-oriented with dynamic polymorphism.
-
-// Case 2 - Just a function template.
-
-// Case 3 - To solve this exercise with Concepts, peek into the last chapter of this course. Concepts are a valid and elegant method. Concepts with C++20:
