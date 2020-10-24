@@ -1,4 +1,5 @@
 // deque.cpp
+// std::deque(double ended queue), which consist of a sequence of arrays, is quite similar to std::vector. std::deque needs the header <deque>. The std::deque has three additional methods deq.push_front(elem), deq.pop_front(), and deq.emplace_front(args... ) to add or remove elements at the beginning.
 #include <iostream>
 #include <deque>
 using namespace std;
