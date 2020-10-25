@@ -1,4 +1,5 @@
 // unorderedMapHash.cpp 
+// custom hash
 #include <iostream>
 #include <unordered_map>
 
