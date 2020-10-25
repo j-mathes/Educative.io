@@ -17,6 +17,7 @@ int main(){
  
   std::cout << std::endl;
  
+  // seed initialises the random number generator.
   unsigned seed= std::chrono::system_clock::now().time_since_epoch().count();
    
   std::cout << std::endl;
